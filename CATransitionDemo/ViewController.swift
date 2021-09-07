@@ -88,7 +88,7 @@ extension ViewController: UIPickerViewDataSource {
 extension ViewController: UIPickerViewDelegate {
     
     //This method is only necessary because the cameraIris transition sometimes does not go away after the animation is complete
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.view.layoutIfNeeded()
     }
     
